@@ -1,0 +1,109 @@
+body {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+
+  /*FONTS*/
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+}
+
+
+/*Header Styles*/
+#header {
+  overflow: hidden;
+  background: #202d35;
+}
+
+nav{
+  min-height: 100px;
+  overflow: hidden;
+}
+
+
+.dynamic-logo{
+  color:#fff;
+}
+
+.dynamic-list-container{
+  overflow: hidden;
+}
+
+.slide-text ul{
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 180px;
+  height: 70px;
+  list-style: none;
+  /* position: relative; */
+  animation: slide 15s  infinite;
+}
+
+.slide-text li{
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+  font-size: 22px;
+}
+
+
+@keyframes slide {
+    0%, 14.28%{
+      transform: translateY(0%);
+    }14.28%,28.56%{
+      transform: translateY(-100%);
+    }28.56%, 42.84%{
+      transform: translateY(-200%);
+    }42.84%, 57.12%{
+      transform: translateY(-300%);
+    }57.12%, 71.4%{
+      transform: translateY(-400%);
+    }71.4%,85.68%{
+      transform: translateY(-500%);
+    }85.68%,100%{
+      transform: translateY(-600%);
+    }100%{
+      transform: translateY(-700%);
+    }
+}
+
+.navLinks{
+  text-decoration: none;
+}
+
+
+/*Background navlinks*/
+.bgLink-1{
+  background-color:#3da5e2 ;
+}
+.bgLink-2{
+  background-color:#005385 ;
+}
+.bgLink-3{
+  background-color:#003855 ;
+}
+.bgLink-4{
+  background-color:#002D44 ;
+}
+
+/*Hover navbar links*/
+.bgLink-1:hover{
+  background-color:#1895de ;
+}
+.bgLink-2:hover{
+  background-color:#00426a ;
+}
+.bgLink-3:hover{
+  background-color:#02324a ;
+}
+
+.bgLink-4:hover{
+  background-color:#05293a ;
+}
+
+
+
+
+
