@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles.css';
 import Header from './components/header/Header';
-
+import Footer from './components/footer/Footer';
 
 import Router from './Router';
 
@@ -13,9 +13,7 @@ function App() {
       <Router/>
 
       </main>
-      <footer>
-
-      </footer>
+      <Footer/>
     </div>
   );
 }

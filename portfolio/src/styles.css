@@ -138,3 +138,29 @@ nav{
   border-bottom: 1px solid var(--sections-border-grayLight);
 }
 
+.homePage{
+  margin-bottom: 400px;
+}
+
+.social-media {
+  background-color: var(--background-sections);
+  border-top: 1px solid var(--sections-border-grayLight);
+}
+
+.footerIcons{
+  color: black;
+  padding: 10px;
+}
+
+.footerIcons:hover{
+  color: var(--background-nav-link-1);
+  cursor: pointer;
+}
+
+.footer-link-Angel{
+  text-decoration: none;
+  color: var(--background-nav-link-1);
+}
+.footer-link-Angel:hover{
+  cursor: pointer;
+}
