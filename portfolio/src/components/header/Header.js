@@ -11,7 +11,7 @@ class Header extends Component {
 
     render() {
 
-        let array = ['', 'WebDeveloper', 'React', 'Bootstrap', 'CSS', 'NodeJS', "API's"];
+        let array = ["", "WebDeveloper", "React", "Bootstrap", "CSS", "NodeJS", "API's"];
 
         return (
             <header id='header' className='container g-0'>
@@ -32,7 +32,7 @@ class Header extends Component {
                                         {
                                             array.map((el, ix) => {
                                                 return (
-                                                    <li className='dynamic-logo dynamicLogo m-0'>
+                                                    <li className='dynamic-logo m-0'>
                                                         {el}
                                                     </li>
                                                 )
