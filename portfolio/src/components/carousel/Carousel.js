@@ -1,12 +1,10 @@
-import react, { Component } from 'react';
-
-import Carousel from 'react-bootstrap/Carousel';
+import React, { Component } from 'react';
 
 import nurseXpress from '../../images/nurseXpress.jpg'
 import devsFunBlog from '../../images/devsFunBlog.jpg'
 import scurePassword from '../../images/scurePassword.jpg'
 
-class CarouselComponent extends Component {
+class Carousel extends Component {
     render() {
         return (
             <div className='container'>
@@ -41,4 +39,4 @@ class CarouselComponent extends Component {
     }
 }
 
-export default CarouselComponent;
+export default Carousel;
