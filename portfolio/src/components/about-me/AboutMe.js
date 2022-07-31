@@ -5,9 +5,7 @@ class AboutMe extends Component {
         return (
             <section className='container '>
                 <article  className='section-border mt-5 p-4 shadow'>
-
                     <h2 className='paragraph display-6 fw-bold text-sm-center text-md-start'>Full Stack Web Developer</h2>
-
                     <div id="aboutMe-text-container" className='p-2'>
                         <p className='paragraph fs-4 px-3 mb-4 text-sm-center text-md-start'>
                             I'm from Mexico City and i'm currently enrolled in a bootcamp provided by Tec
@@ -39,30 +37,7 @@ class AboutMe extends Component {
                         </p>
                     </div>
                 </article>
-
-                <article id="aboutMe-text-container" className='section-border mt-5 p-4 shadow'>
-                    <div>
-                        <h3>FRONT END PROFICIENCIES</h3>
-                        <div className='skillImages'>
-
-                        </div>
-                    </div>
-                    <div>
-                        <h3>BACK END PROFICIENCIES</h3>
-                        <div className='skillImages'>
-
-                        </div>
-                    </div>
-                    <div>
-                        <h3>DEVOPS/OTHER APPLICATIONS</h3>
-                        <div className='skillImages'>
-
-                        </div>
-                    </div>
-
-                </article>
             </section>
-
         )
     }
 }
