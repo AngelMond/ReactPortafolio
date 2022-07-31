@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { Routes, Route} from "react-router-dom";
 // import Carousel from './components/carousel/Carousel.js';
-import HomePage from './components/home/HomePage'
+import HomePage from './components/home/HomePage';
 
 class Router extends Component {
     render(){

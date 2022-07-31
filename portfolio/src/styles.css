@@ -138,25 +138,28 @@ nav{
   border-bottom: 1px solid var(--sections-border-grayLight);
 }
 
+/*Styles for home section*/
 .homePage{
-  margin-bottom: 400px;
+  margin-bottom: 250px;
+  height: 400px;
 }
 
+/*Styles for footer*/
 .social-media {
   background-color: var(--background-sections);
   border-top: 1px solid var(--sections-border-grayLight);
 }
-
 .footerIcons{
   color: black;
   padding: 10px;
 }
-
 .footerIcons:hover{
   color: var(--background-nav-link-1);
   cursor: pointer;
 }
-
+.footer-link{
+  margin:0px !important;
+}
 .footer-link-Angel{
   text-decoration: none;
   color: var(--background-nav-link-1);
@@ -164,3 +167,4 @@ nav{
 .footer-link-Angel:hover{
   cursor: pointer;
 }
+
