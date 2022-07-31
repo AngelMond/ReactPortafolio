@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Footer extends Component {
     render() {
         return (
-            <footer className="mt-5">
+            <footer className="mt-5 container ">
                 <div className="container social-media p-3">
                     <div className="row justify-content-center align-items-center">
                     <div className="col-12 mt-3">
