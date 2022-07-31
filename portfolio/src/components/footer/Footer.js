@@ -6,7 +6,7 @@ class Footer extends Component {
             <footer className="mt-5 container ">
                 <div className="container social-media p-3">
                     <div className="row justify-content-center align-items-center">
-                    <div className="col-12 mt-3">
+                        <div className="col-12 mt-3">
                             <p className="text-center footer-link p-2 fs-5 mt-4">
                                 Developed by <span><a className="footer-link-Angel">Angel Mondragon</a></span> &copy; 2022
                             </p>
@@ -29,7 +29,6 @@ class Footer extends Component {
                                 </svg>
                             </a>
                         </div>
-                       
                     </div>
                 </div>
             </footer>

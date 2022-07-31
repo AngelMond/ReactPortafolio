@@ -146,7 +146,6 @@ nav{
 
 /*Styles for footer*/
 .social-media {
-  background-color: var(--background-sections);
   border-top: 1px solid var(--sections-border-grayLight);
 }
 .footerIcons{
