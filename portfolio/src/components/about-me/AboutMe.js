@@ -22,7 +22,7 @@ class AboutMe extends Component {
 
                         <p className='fs-4 px-3 mb-4'>
                             I consider myself a disciplined person, and that helps me a lot to learn the necessary knowledge to work as a web developer. 
-                            I really like learning about data structures and algorithms. I feel that it is a fundamental part of being a good software developer.
+                            I really like learning about data structures and algorithms, I think that's a fundamental part of being a good software developer.
                         </p>
 
                         <p className='paragraph fs-4 px-3 mb-4'>
