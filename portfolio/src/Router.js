@@ -4,6 +4,7 @@ import { Routes, Route} from "react-router-dom";
 import HomePage from './components/home/HomePage';
 import AboutMe from './components/about-me/AboutMe'
 import Portfolio from './components/portfolio/Portfolio'
+import Contact from './components/contact/Contact.js'
 class Router extends Component {
     render(){
         return(
@@ -11,6 +12,7 @@ class Router extends Component {
                 <Route path='/' element={<HomePage/>}/>
                 <Route path='/about' element={<AboutMe/>}/>
                 <Route path='/portfolio' element={<Portfolio/>}/>
+                <Route path='/contact' element={<Contact/>}/>
             </Routes>
         )
     }

@@ -5,7 +5,7 @@ class AboutMe extends Component {
         return (
             <section className='container '>
                 <article  className='section-border mt-5 p-4 shadow'>
-                    <h3 className='paragraph text-sm-center text-md-start'>Full Stack Web Developer</h3>
+                    <h3 className='paragraph text-center section-headings'>Full Stack Web Developer</h3>
                     <div id="aboutMe-text-container" className='p-2'>
                         <p className='paragraph fs-4 px-3 mb-4 text-sm-center text-md-start'>
                             I'm from Mexico City and i'm currently enrolled in a bootcamp provided by Tec

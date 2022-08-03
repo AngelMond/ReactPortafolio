@@ -9,6 +9,7 @@
   --sections-border-blue: #3FA4E1;
   --sections-border-grayLight: #D2D1D2;
   --project-description-background: #002D44;
+  --h3-section-headings: #003F64;
 }
 
 body {
@@ -24,6 +25,10 @@ body {
 
 #root{
   background-color: var(--body-background);
+}
+
+.section-headings{
+  color: var(--h3-section-headings);
 }
 
 
@@ -168,6 +173,7 @@ nav{
   cursor: pointer;
 }
 
+/*Styles for projects description*/
 .proyectDescription{
   display: none;
   width: 300px;
@@ -194,6 +200,8 @@ nav{
   display: block;
   cursor: pointer;
 }
+
+
 
 @media screen and (max-width:575px) {
   .paragraph{
