@@ -174,8 +174,9 @@ nav{
 }
 
 /*Styles for projects description*/
-.proyectDescription{
+.projectDescription{
   display: none;
+  overflow: hidden;
   width: 300px;
   height: 220px;
   opacity: .8;
@@ -205,13 +206,51 @@ nav{
 }
 
 /*Show project description when hover*/
-.image-container:hover .proyectDescription{
+.image-container:hover .projectDescription{
   display: block;
   cursor: pointer;
 }
 
 
+/*Animations for project description*/
+.image-container:hover .project-title,
+.image-container:hover .description{
+  animation: showTitle 300ms linear;
+  animation: showDescription 450ms linear;
+}
+.image-container:hover .project-technologies{
+  animation: showTechnologies 400ms linear;
+}
+/*Animation title description*/
+@keyframes showTitle{
+  from{
+      transform: translateY(-200%);
+  }
+  to{
+      transform: translateY(0%);
+  }
+}
+/*Animation project description*/
+@keyframes showDescription{
+  from{
+      transform: translateY(-300%);
+      color: black;
+  }
+  to{
+      transform: translateY(0%);
+      color: white;
+  }
+}
+/*Animation technologies description*/
+@keyframes showTechnologies{
+  from{
+    transform:  translateX(-300%);
+  }to{
+    transform: translateX(0%);
+  }
+}
 
+/*Media query to center text in AboutMe section in mobile devices*/
 @media screen and (max-width:575px) {
   .paragraph{
     text-align: center;
