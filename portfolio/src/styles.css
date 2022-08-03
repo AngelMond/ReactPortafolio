@@ -277,6 +277,9 @@ nav{
   color: white;
 }
 
+/*Resume styles*/
+
+
 /*Media query to center text in AboutMe section in mobile devices*/
 @media screen and (max-width:575px) {
   .paragraph{
