@@ -11,7 +11,7 @@ class HomePage extends Component{
                     <p className='display-6 text-center'>A Pasionate Software Engineer</p>
                 </div>
                 <div className='col d-flex justify-content-center align-items-center'>
-                    <img id='myPhoto' className='rounded-circle' src={photo}/>
+                    <img id='myPhoto' alt='AngelPhoto' className='rounded-circle' src={photo}/>
                 </div>
             </article>
           </section>
