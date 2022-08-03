@@ -201,6 +201,7 @@ nav{
   box-shadow:  0px 0px 1px 1px rgb(143, 151, 155) ;
   background-color: #2d74a3 !important;
   color: white !important;
+  transition: 350ms;
 }
 
 /*Show project description when hover*/
