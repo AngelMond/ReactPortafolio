@@ -205,12 +205,16 @@ nav{
   transition: 350ms;
 }
 
+.projectImage{
+  width: 300px;
+  height: 220px;
+}
+
 /*Show project description when hover*/
 .image-container:hover .projectDescription{
   display: block;
   cursor: pointer;
 }
-
 
 /*Animations for project description*/
 .image-container:hover .project-title,

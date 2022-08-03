@@ -40,7 +40,7 @@ class Images extends Component {
                             </p>
                             <p className='project-technologies fst-italic'>JS/Bootstrap/HTML</p>
                         </div>
-                        <img alt='Proyect-Weather' title='Proyect-Image-Weather' src={weather} />
+                        <img className='projectImage' alt='Proyect-Weather' title='Proyect-Image-Weather' src={weather} />
                     </div>
                     <div className='d-flex mt-1  justify-content-around'>
                         <a href='https://github.com/AngelMond/Weather-Dashboard' target='_blank' rel="noopener noreferrer" className='btn project-links'>Github</a>
@@ -57,7 +57,7 @@ class Images extends Component {
                             </p>
                             <p className='project-technologies fst-italic'>Nodejs/MVC/Express/MySQL/HBS</p>
                         </div>
-                        <img alt='Proyect-NurseXpress' title='Proyect-Image-NurseXpress' src={nurseXpress} />
+                        <img className='projectImage' alt='Proyect-NurseXpress' title='Proyect-Image-NurseXpress' src={nurseXpress} />
                     </div>
                     <div className='d-flex mt-1 justify-content-around'>
                         <a href='https://github.com/aeklf/NurseXpress' target='_blank' rel="noopener noreferrer" className='btn project-links'>Github</a>
@@ -74,7 +74,7 @@ class Images extends Component {
                             </p>
                             <p className='project-technologies fst-italic'>Nodejs/Bootstrap/HTML</p>
                         </div>
-                        <img alt="Project-Profile-Generator" title='Proyect-Image-ProfileGenerator' src={profileGenerator} />
+                        <img className='projectImage' alt="Project-Profile-Generator" title='Proyect-Image-ProfileGenerator' src={profileGenerator} />
                     </div>
                     <div className='d-flex mt-1 justify-content-around'>
                         <a href='https://github.com/AngelMond/Work-Team-Generator' target='_blank' rel="noopener noreferrer" className='btn project-links'>Github</a>
@@ -90,7 +90,7 @@ class Images extends Component {
                             </p>
                             <p className='project-technologies fst-italic'>Nodejs/MySQL/Git</p>
                         </div>
-                        <img alt='Project-Employee-Tracker' title='Running-Program-With-Nodejs' src={employeeTracker} />
+                        <img className='projectImage' alt='Project-Employee-Tracker' title='Running-Program-With-Nodejs' src={employeeTracker} />
                     </div>
                     <div className='d-flex mt-1 justify-content-around'>
                         <a href='https://github.com/AngelMond/Employee-Tracker' target='_blank' rel="noopener noreferrer" className='btn project-links'>Github</a>
@@ -107,7 +107,7 @@ class Images extends Component {
                             </p>
                             <p className='project-technologies fst-italic'>Nodejs/Express/MongoDB/Git</p>
                         </div>
-                        <img alt='Project-Social-Network' title='Insomnia-Testing-Routes-MongoDB' src={socialNetwork} />
+                        <img className='projectImage' alt='Project-Social-Network' title='Insomnia-Testing-Routes-MongoDB' src={socialNetwork} />
                     </div>
                     <div className='d-flex mt-1 justify-content-around'>
                         <a href='https://github.com/AngelMond/SocialNetwork-API' target='_blank' rel="noopener noreferrer" className='btn project-links'>Github</a>
@@ -124,7 +124,7 @@ class Images extends Component {
                             </p>
                             <p className='project-technologies fst-italic'>Nodejs/Express/MySQL/Sequelize</p>
                         </div>
-                        <img alt='Project-Ecommerce-Backend' title='SQL-Workbench' src={ecommerceBackend} />
+                        <img className='projectImage' alt='Project-Ecommerce-Backend' title='SQL-Workbench' src={ecommerceBackend} />
                     </div>
                     <div className='d-flex mt-1 justify-content-around'>
                         <a href='https://github.com/AngelMond/The-BackEnd-YouNeed-ForYour-ECommerce-Business' target='_blank' rel="noopener noreferrer" className='btn project-links'>Github</a>
@@ -140,7 +140,7 @@ class Images extends Component {
                             </p>
                             <p className='project-technologies fst-italic'>Nodejs/Express/HTML/CSS</p>
                         </div>
-                        <img alt='Prject-Note-Taker' title='Web-NoteTaker' src={noteTaker} />
+                        <img className='projectImage' alt='Prject-Note-Taker' title='Web-NoteTaker' src={noteTaker} />
                     </div>
                     <div className='d-flex mt-1 justify-content-around'>
                         <a href='https://github.com/AngelMond/Note-Taker' target='_blank' rel="noopener noreferrer" className='btn project-links'>Github</a>
