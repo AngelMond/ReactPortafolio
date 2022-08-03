@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
 //Images
-import devBlog from '../../images/devBlog.jpg';
-import nurseXpress from '../../images/nurseXpress.jpg';
-import weather from '../../images/weather.jpg';
-import profileGenerator from '../../images/profileGenerator.jpg';
-import employeeTracker from '../../images/employeeTracker.jpg';
-import socialNetwork from '../../images/socialNetwork.jpg';
-import ecommerceBackend from '../../images/ecommerceBackend.jpg';
-import noteTaker from '../../images/noteTaker.jpg';
+import devBlog from '../../images/devBlogCopy.AVIF';
+import nurseXpress from '../../images/nurseXpressCopy.AVIF';
+import weather from '../../images/weatherCopy.AVIF';
+import profileGenerator from '../../images/profileGeneratorCopy.AVIF';
+import employeeTracker from '../../images/employeeTrackerCopy.AVIF';
+import socialNetwork from '../../images/socialNetworkCopy.AVIF';
+import ecommerceBackend from '../../images/ecommerceBackendCopy.AVIF';
+import noteTaker from '../../images/noteTakerCopy.AVIF';
 
 
 class Images extends Component {
