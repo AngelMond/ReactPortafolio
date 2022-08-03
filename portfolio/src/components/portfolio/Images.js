@@ -27,8 +27,8 @@ class Images extends Component{
                         <img className='projectImage' alt='Proyect-DevBlog' title='Proyect-Image-DevBlog' src={devBlog}/>
                     </div>
                     <div className='d-flex mt-1  justify-content-around'>
-                        <a href='https://github.com/AngelMond/Dev-Blog' target='_blank' rel="noopener noreferrer" className='btn'>Github</a>
-                        <a href='https://sheltered-everglades-31029.herokuapp.com/' target='_blank' rel="noopener noreferrer" className='btn'>Web</a>
+                        <a href='https://github.com/AngelMond/Dev-Blog' target='_blank' rel="noopener noreferrer" className='btn project-links'>Github</a>
+                        <a href='https://sheltered-everglades-31029.herokuapp.com/' target='_blank' rel="noopener noreferrer" className='btn project-links'>Web</a>
                     </div>
                 </div>
                 <div className='image-container col-auto m-2 border border-muted p-1 rounded'>
@@ -43,8 +43,8 @@ class Images extends Component{
                         <img alt='Proyect-Weather' title='Proyect-Image-Weather' src={weather}/>
                     </div>
                     <div className='d-flex mt-1  justify-content-around'>
-                        <a href='https://github.com/AngelMond/Weather-Dashboard' target='_blank' rel="noopener noreferrer" className='btn'>Github</a>
-                        <a href='https://angelmond.github.io/Weather-Dashboard/' target='_blank' rel="noopener noreferrer" className='btn'>Web</a>
+                        <a href='https://github.com/AngelMond/Weather-Dashboard' target='_blank' rel="noopener noreferrer" className='btn project-links'>Github</a>
+                        <a href='https://angelmond.github.io/Weather-Dashboard/' target='_blank' rel="noopener noreferrer" className='btn project-links'>Web</a>
                     </div>
                 </div>
                 <div className='image-container col-auto m-2 border border-muted p-1 rounded'>
@@ -60,8 +60,8 @@ class Images extends Component{
                         <img alt='Proyect-NurseXpress' title='Proyect-Image-NurseXpress' src={nurseXpress}/>
                     </div>
                     <div className='d-flex mt-1 justify-content-around'>
-                        <a href='https://github.com/aeklf/NurseXpress' target='_blank' rel="noopener noreferrer" className='btn'>Github</a>
-                        <a href='https://nurse-express-s.herokuapp.com/' target='_blank' rel="noopener noreferrer"  className='btn'>Web</a>
+                        <a href='https://github.com/aeklf/NurseXpress' target='_blank' rel="noopener noreferrer" className='btn project-links'>Github</a>
+                        <a href='https://nurse-express-s.herokuapp.com/' target='_blank' rel="noopener noreferrer"  className='btn project-links'>Web</a>
                     </div>
                 </div>
                 <div className='image-container col-auto m-2 border border-muted p-1 rounded'>
@@ -77,8 +77,8 @@ class Images extends Component{
                         <img alt="Project-Profile-Generator"  title='Proyect-Image-ProfileGenerator' src={profileGenerator}/>
                     </div>
                     <div className='d-flex mt-1 justify-content-around'>
-                        <a href='https://github.com/AngelMond/Work-Team-Generator' target='_blank' rel="noopener noreferrer" className='btn'>Github</a>
-                        <a href='https://drive.google.com/file/d/1rwORViybUlItr28VoGnmMV5ZN0-ymyIV/view' target='_blank' rel="noopener noreferrer"  className='btn'>Demo</a>
+                        <a href='https://github.com/AngelMond/Work-Team-Generator' target='_blank' rel="noopener noreferrer" className='btn project-links'>Github</a>
+                        <a href='https://drive.google.com/file/d/1rwORViybUlItr28VoGnmMV5ZN0-ymyIV/view' target='_blank' rel="noopener noreferrer"  className='btn project-links'>Demo</a>
                     </div>
                 </div>
                 <div className='image-container col-auto m-2 border border-muted p-1 rounded'>
@@ -93,8 +93,8 @@ class Images extends Component{
                         <img alt='Project-Employee-Tracker' title='Running-Program-With-Nodejs' src={employeeTracker}/>
                     </div>
                     <div className='d-flex mt-1 justify-content-around'>
-                        <a href='https://github.com/AngelMond/Employee-Tracker' target='_blank' rel="noopener noreferrer" className='btn'>Github</a>
-                        <a href='https://drive.google.com/file/d/1_dj2cls3sSDr0GcMjtEgj37k6DpedpRX/view' target='_blank' rel="noopener noreferrer"  className='btn'>Demo</a>
+                        <a href='https://github.com/AngelMond/Employee-Tracker' target='_blank' rel="noopener noreferrer" className='btn project-links'>Github</a>
+                        <a href='https://drive.google.com/file/d/1_dj2cls3sSDr0GcMjtEgj37k6DpedpRX/view' target='_blank' rel="noopener noreferrer"  className='btn project-links'>Demo</a>
                     </div>
                 </div>
                 <div className='image-container col-auto m-2 border border-muted p-1 rounded'>
@@ -110,8 +110,8 @@ class Images extends Component{
                         <img alt='Project-Social-Network' title='Insomnia-Testing-Routes-MongoDB' src={socialNetwork}/>
                     </div>
                     <div className='d-flex mt-1 justify-content-around'>
-                        <a href='https://github.com/AngelMond/SocialNetwork-API' target='_blank' rel="noopener noreferrer" className='btn'>Github</a>
-                        <a href='https://drive.google.com/file/d/183TcwXEPZySR_0NtCNcf2LVRZvmmloUb/view' target='_blank' rel="noopener noreferrer"  className='btn'>Demo</a>
+                        <a href='https://github.com/AngelMond/SocialNetwork-API' target='_blank' rel="noopener noreferrer" className='btn project-links'>Github</a>
+                        <a href='https://drive.google.com/file/d/183TcwXEPZySR_0NtCNcf2LVRZvmmloUb/view' target='_blank' rel="noopener noreferrer"  className='btn project-links'>Demo</a>
                     </div>
                 </div>
                 <div className='image-container col-auto m-2 border border-muted p-1 rounded'>
@@ -127,8 +127,8 @@ class Images extends Component{
                         <img alt='Project-Ecommerce-Backend' title='SQL-Workbench' src={ecommerceBackend}/>
                     </div>
                     <div className='d-flex mt-1 justify-content-around'>
-                        <a href='https://github.com/AngelMond/The-BackEnd-YouNeed-ForYour-ECommerce-Business' target='_blank' rel="noopener noreferrer" className='btn'>Github</a>
-                        <a href='https://drive.google.com/file/d/1UsbSQ5RegvqVPKQghQcotLU7-IixRx02/view' target='_blank' rel="noopener noreferrer"  className='btn'>Demo</a>
+                        <a href='https://github.com/AngelMond/The-BackEnd-YouNeed-ForYour-ECommerce-Business' target='_blank' rel="noopener noreferrer" className='btn project-links'>Github</a>
+                        <a href='https://drive.google.com/file/d/1UsbSQ5RegvqVPKQghQcotLU7-IixRx02/view' target='_blank' rel="noopener noreferrer"  className='btn project-links'>Demo</a>
                     </div>
                 </div>
                 <div className='image-container col-auto m-2 border border-muted p-1 rounded'>
@@ -143,8 +143,8 @@ class Images extends Component{
                         <img alt='Prject-Note-Taker' title='Web-NoteTaker' src={noteTaker}/>
                     </div>
                     <div className='d-flex mt-1 justify-content-around'>
-                        <a href='https://github.com/AngelMond/Note-Taker' target='_blank' rel="noopener noreferrer" className='btn'>Github</a>
-                        <a href='https://blooming-anchorage-79721.herokuapp.com/' target="_blank" rel="noopener noreferrer"  className='btn'>Web</a>
+                        <a href='https://github.com/AngelMond/Note-Taker' target='_blank' rel="noopener noreferrer" className='btn project-links'>Github</a>
+                        <a href='https://blooming-anchorage-79721.herokuapp.com/' target="_blank" rel="noopener noreferrer"  className='btn project-links'>Web</a>
                     </div>
                 </div>
             </div>
