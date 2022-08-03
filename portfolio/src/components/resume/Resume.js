@@ -23,6 +23,9 @@ import github from '../../images/tech-images/devops/github.png';
 import heroku from '../../images/tech-images/devops/heroku.png';
 import vscode from '../../images/tech-images/devops/vscode.png';
 
+//Resume image
+import pdfImage from '../../images/pdf-icon.AVIF'
+import resume from './resume.pdf'
 class Resume extends Component {
     render() {
         return (
@@ -57,6 +60,13 @@ class Resume extends Component {
                                 <img src={github} alt="Github" title="Github" />
                                 <img src={heroku} alt="Heroku" title="Heroku" />
                                 <img src={vscode} alt="VSCode" title="VSCode" />
+                            </div>
+                    </div>
+                    <div className="col-md-10 mb-5">
+                        <h3 className="text-center border-bottom border-muted p-2 section-headings">DOWNLOAD RESUME</h3>
+                            <div className='d-flex flex-wrap justify-content-center p-3'>
+                                <a className="resumeImage" href={resume} target="_blank" rel="noopener noreferrer"><img src={pdfImage} width="50" height="50" alt="resume" title="pdf-resume" /></a>
+                                <p className="col-12 text-center text-muted mt-2" id="titleResume">Click to Download</p>
                             </div>
                     </div>
                 </article>

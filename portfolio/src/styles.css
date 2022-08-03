@@ -277,7 +277,10 @@ nav{
   color: white;
 }
 
-/*Resume styles*/
+/*Resume styles for download resume*/
+.resumeImage:hover ~ #titleResume{
+  color: red !important;
+}
 
 
 /*Media query to center text in AboutMe section in mobile devices*/
