@@ -250,6 +250,33 @@ nav{
   }
 }
 
+
+/*Contact Styles*/
+
+.contact-section{
+  margin-bottom: 270px;
+}
+
+.textarea-contact{
+  min-height: 150px !important;
+  max-height: 250px;
+}
+
+.sendButton{
+  background-color:#3EA4E4 ;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 7px 30px;
+  cursor: pointer;
+  color: #fff;
+  width: auto;
+}
+
+.sendButton:hover{
+  background-color: #1BA0EF;
+  color: white;
+}
+
 /*Media query to center text in AboutMe section in mobile devices*/
 @media screen and (max-width:575px) {
   .paragraph{
