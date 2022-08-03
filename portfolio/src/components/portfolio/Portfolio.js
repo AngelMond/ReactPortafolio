@@ -1,13 +1,16 @@
-import React, {Component} from "react";
+import React from "react";
 
-class Portfolio extends Component{
-    render(){
+import Images from './Images'
+
+const Portfolio =()=>{
         return(
-            <section>
-                
+            <section className="container mt-5">
+                <article className=" section-border  p-1 shadow text-center">
+                    <h3 className="p-2">Portfolio</h3>
+                        <Images/>
+                </article>
             </section>
-        )
-    }
-}
+        );
+};
 
 export default Portfolio;

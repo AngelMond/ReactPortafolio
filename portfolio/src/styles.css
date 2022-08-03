@@ -8,6 +8,7 @@
   --background-sections: #FFFDFF;
   --sections-border-blue: #3FA4E1;
   --sections-border-grayLight: #D2D1D2;
+  --project-description-background: #002D44;
 }
 
 body {
@@ -167,9 +168,37 @@ nav{
   cursor: pointer;
 }
 
+.proyectDescription{
+  display: none;
+  width: 300px;
+  height: 220px;
+  opacity: .8;
+  position: absolute;
+  background-color: var(--project-description-background);
+  padding: 20px 5px;
+}
+
+.project-title{
+  color: white;
+  font-weight: bold;
+}
+
+.description{
+  color: white;
+}
+.project-technologies{
+  color: white;
+}
+
+.image-container:hover .proyectDescription{
+  display: block;
+  cursor: pointer;
+}
+
 @media screen and (max-width:575px) {
   .paragraph{
     text-align: center;
   }
 }
+
 
