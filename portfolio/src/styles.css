@@ -257,6 +257,7 @@ nav{
 
 /*Contact Styles*/
 
+
 .contact-section{
   margin-bottom: 270px;
 }
@@ -274,11 +275,17 @@ nav{
   cursor: pointer;
   color: #fff;
   width: auto;
+  text-decoration: none;
 }
 
 .sendButton:hover{
   background-color: #1BA0EF;
   color: white;
+}
+
+/*Display the message when send the contact form in Contact.js component*/
+#messageSended{
+  display: none;
 }
 
 /*Resume styles for download resume*/
