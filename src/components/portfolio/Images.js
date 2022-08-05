@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
 //Images
-import devBlog from '../../images/devBlogCopy.AVIF';
-import nurseXpress from '../../images/nurseXpressCopy.AVIF';
-import weather from '../../images/weatherCopy.AVIF';
-import profileGenerator from '../../images/profileGeneratorCopy.AVIF';
-import employeeTracker from '../../images/employeeTrackerCopy.AVIF';
-import socialNetwork from '../../images/socialNetworkCopy.AVIF';
-import ecommerceBackend from '../../images/ecommerceBackendCopy.AVIF';
+import devBlog from '../../images/devBlog.AVIF';
+import nurseXpress from '../../images/nurseXpress.AVIF';
+import weather from '../../images/weather.AVIF';
+import profileGenerator from '../../images/profileGenerator.AVIF';
+import employeeTracker from '../../images/employeeTracker.AVIF';
+import socialNetwork from '../../images/socialNetwork.AVIF';
+import ecommerceBackend from '../../images/ecommerceBackend.AVIF';
 import noteTaker from '../../images/noteTakerCopy.AVIF';
 
 
