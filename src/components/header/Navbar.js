@@ -4,7 +4,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav className='menu col-12 col-md-12 col-lg-6 d-flex flex-wrap'>
-                <a className='col-3 navLinks bgLink-1 p-4 text-center text-white' href='/ReactPortfolio/about'>
+                <a className='col-3 navLinks bgLink-1 p-4 text-center text-white' href='/ReactPortfolio/'>
                     <span className="fs-md-5">About Me</span>
                     <div className='icon'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-person-fill" viewBox="0 0 16 16">
