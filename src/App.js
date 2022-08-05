@@ -3,15 +3,15 @@ import './styles.css';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 
-import Router from './Router';
+
+import RouterComponent from './Router';
 
 function App() {
   return (
     <div className="App">
       <Header/>
       <main className='container'>
-      <Router/>
-
+      <RouterComponent/>
       </main>
       <Footer/>
     </div>
