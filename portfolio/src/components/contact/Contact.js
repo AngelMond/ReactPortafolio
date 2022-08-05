@@ -40,7 +40,7 @@ const Contact = () => {
 
     //Handler for Message input
     const requireMessage = (message) => {
-        return /^[a-z, .'-', 0-9, *+/]+$/i.test(message)
+        return /^[a-z, .'-', 0-9, *+/!, \n]+$/i.test(message)
     }
     const handlerMessage = (event) => {
         if (!requireMessage(event.target.value)) {
