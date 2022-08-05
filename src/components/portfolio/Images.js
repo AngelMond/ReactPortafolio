@@ -8,7 +8,7 @@ import profileGenerator from '../../images/profileGenerator.AVIF';
 import employeeTracker from '../../images/employeeTracker.AVIF';
 import socialNetwork from '../../images/socialNetwork.AVIF';
 import ecommerceBackend from '../../images/ecommerceBackend.AVIF';
-import noteTaker from '../../images/noteTakerCopy.AVIF';
+import noteTaker from '../../images/noteTaker.AVIF';
 
 
 class Images extends Component {
