@@ -4,7 +4,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav className='menu col-12 col-md-12 col-lg-6 d-flex flex-wrap'>
-                <a className='col-3 navLinks bgLink-1 p-4 text-center text-white' href='/ReactPortfolio/about'>
+                <a className='col-3 navLinks bgLink-1 p-4 text-center text-white' href='/about'>
                     <span className="fs-md-5">About Me</span>
                     <div className='icon'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-person-fill" viewBox="0 0 16 16">
@@ -12,7 +12,7 @@ class Navbar extends Component {
                         </svg>
                     </div>
                 </a>
-                <a className='col-3 navLinks bgLink-2 p-4 text-center text-white align-items-center' href='/ReactPortfolio/portfolio'>
+                <a className='col-3 navLinks bgLink-2 p-4 text-center text-white align-items-center' href='/portfolio'>
                     <span className="fs-md-5">Portfolio</span>
                     <div className='icon'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-briefcase-fill" viewBox="0 0 16 16">
@@ -21,7 +21,7 @@ class Navbar extends Component {
                         </svg>
                     </div>
                 </a>
-                <a className='col-3 navLinks bgLink-3 p-4 text-center text-white' href='/ReactPortfolio/contact'>
+                <a className='col-3 navLinks bgLink-3 p-4 text-center text-white' href='/contact'>
                     <span className="fs-md-5">Contact</span>
                     <div className='icon'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-envelope-fill" viewBox="0 0 16 16">
@@ -29,7 +29,7 @@ class Navbar extends Component {
                         </svg>
                     </div>
                 </a>
-                <a className='col-3 navLinks bgLink-4 p-4 text-center text-white' href='/ReactPortfolio/resume'>
+                <a className='col-3 navLinks bgLink-4 p-4 text-center text-white' href='/resume'>
                     <span className="fs-md-5">Resume</span>
                     <div className='icon'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-file-earmark-person-fill" viewBox="0 0 16 16">
