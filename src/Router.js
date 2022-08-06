@@ -12,7 +12,7 @@ class RouterComponent extends Component {
         return (
             <Router>
                 <Routes>
-                    <Route path='/ReactPortfolio/' element={ <Navigate to="/"/>} />
+                    <Route path='/ReactPortfolio' element={ <Navigate to="/"/>} />
                     <Route path='/' element={<HomePage />} />
                     <Route path='/about' element={<AboutMe />} />
                     <Route path='/portfolio' element={<Portfolio />} />
