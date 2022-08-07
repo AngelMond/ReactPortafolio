@@ -88,7 +88,7 @@ const Contact = () => {
                                 <div className="col-12 col-md-6 mb-3">
                                     <div className="form-floating ">
                                         <input onChange={handleValidEmail} id="inputEmail" className="form-control" type="text" name="email" placeholder="email" />
-                                        <label className="" htmlFor="email">email</label>
+                                        <label className="text-start" htmlFor="email">email</label>
                                         {errorEmail && <h5 id="invalidEmail" className=" text-danger fs-6 mt-2 text-center">{errorEmail}</h5>}
                                     </div>
                                 </div>
