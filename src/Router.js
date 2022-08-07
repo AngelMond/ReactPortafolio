@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import Carousel from './components/carousel/Carousel.js';
 import HomePage from './components/home/HomePage';
 import AboutMe from './components/about-me/AboutMe';
@@ -12,16 +12,17 @@ class RouterComponent extends Component {
         return (
             <Router>
                 <Routes>
-                    <Route path='/ReactPortfolio' element={<Navigate to="/" />} />
                     <Route path='/' element={<HomePage />} />
-
-                    {/* <Route path='/about' element={<Navigate to="/about" />} /> */}
                     <Route path='/about' element={<AboutMe />} />
-
-
-                    <Route path='/ReactPortfolio/portfolio' element={<Portfolio />} />
-                    <Route path='/ReactPortfolio/contact' element={<Contact />} />
-                    <Route path='/ReactPortfolio/resume' element={<Resume />} />
+                    <Route path='/portfolio' element={<Portfolio />} />
+                    <Route path='/contact' element={<Contact />} />
+                    <Route path='/resume' element={<Resume />} />
+                    <Route path='*' element={
+                        <div className='container mt-5 d-flex align-items-center justify-content-center page-not-found'>
+                            <h2 className='text-center'>404 Page not found</h2>
+                        </div>
+                    }
+                    />
                 </Routes>
             </Router>
         )
@@ -46,7 +47,7 @@ class RouterComponent extends Component {
 //           default:
 //             return <HomePage></HomePage>
 //         }
-       
+
 //     };
 
 // return (

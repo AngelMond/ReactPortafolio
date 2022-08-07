@@ -294,6 +294,11 @@ nav{
 }
 
 
+/*Styles page-not-found*/
+.page-not-found{
+  min-height: 600px;
+}
+
 /*Media query to center text in AboutMe section in mobile devices*/
 @media screen and (max-width:575px) {
   .paragraph{
