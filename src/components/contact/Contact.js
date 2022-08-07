@@ -81,7 +81,7 @@ const Contact = () => {
                                 <div className="col-12 col-md-6 mb-3">
                                     <div className="form-floating ">
                                         <input onMouseLeave={handlerName} id="inputName" className="form-control" type="text" name="name" placeholder="Name" />
-                                        <label className="" htmlFor="name">Name</label>
+                                        <label className="text-start" htmlFor="name">Name</label>
                                         {errorName && <h5 id="requireName" className=" text-danger fs-6 mt-2 text-center">{errorName}</h5>}
                                     </div>
                                 </div>
@@ -96,13 +96,13 @@ const Contact = () => {
                                     <div className="form-floating ">
                                         <textarea onMouseLeave={handlerMessage} id="inputMessage" className="form-control textarea-contact" name="message" placeholder="Message">
                                         </textarea>
-                                        <label htmlFor="message">Message</label>
+                                        <label className="text-start" htmlFor="message">Message</label>
                                         
                                         {errorMessage && <h5 id="requireMessage" className=" text-danger fs-6 mt-2 text-center">{errorMessage}</h5>}
                                         <h5 id="messageSended" className=" text-success fs-6 mt-2 text-center">Message sended</h5>                                    
                                     </div>
                                     <div className="d-flex justify-content-center mt-3">
-                                        <input id="reload" className="sendButton" type="submit" value="Send" />
+                                        <input id="reload" className="sendButton text-start" type="submit" value="Send" />
                                     </div>
                                 </div>
                             </div>
