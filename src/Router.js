@@ -16,9 +16,9 @@ class RouterComponent extends Component {
                     <Route path='/ReactPortfolio/' element={<HomePage />} />
 
                     <Route path='/ReactPortfolio/about' element={<Navigate to="/about" />} />
-                    <Route path='/ReactPortfolio/about' element={<AboutMe />} />
+                    <Route path='/about' element={<AboutMe />} />
 
-                    
+
                     <Route path='/ReactPortfolio/portfolio' element={<Portfolio />} />
                     <Route path='/ReactPortfolio/contact' element={<Contact />} />
                     <Route path='/ReactPortfolio/resume' element={<Resume />} />
