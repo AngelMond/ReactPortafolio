@@ -53,18 +53,6 @@ const Contact = () => {
     }
 
 
-    // const sendForm= ()=>{
-    //     const form = document.querySelector("#form");
-    //     form.addEventListener('submit', handlerSubmit )
-
-    //     function handlerSubmit(event){
-    //         event.preventDefault();
-    //        const newForm = new FormData(form)
-    //        console.log(newForm.get('name'))
-    //     }
-    // }
-
-    //Send Form to my email
     const handleSubmit = (e) => {
         e.preventDefault();
         emailjs.sendForm('service_9mqxg39', 'template_oy8guul', formRef.current, '6uokKZOsjTF7uLKam')
@@ -82,13 +70,6 @@ const Contact = () => {
 
     }
 
-    // const handleSubmitButton = () => {
-    //     const reload = document.querySelector("#reload");
-    //     reload.addEventListener('click', _ => {
-    //         alert('Message sended');
-    //     });
-    // }
-
     return (
         <section className="container contact-section mt-5">
             <article className="section-border p-3">
@@ -99,7 +80,7 @@ const Contact = () => {
                             <div className="row">
                                 <div className="col-12 col-md-6 mb-3">
                                     <div className="form-floating ">
-                                        <input onChange={handlerName} id="inputName" className="form-control" type="text" name="name" placeholder="Name" />
+                                        <input onMouseLeave={handlerName} id="inputName" className="form-control" type="text" name="name" placeholder="Name" />
                                         <label className="" htmlFor="name">Name</label>
                                         {errorName && <h5 id="requireName" className=" text-danger fs-6 mt-2 text-center">{errorName}</h5>}
                                     </div>
@@ -113,7 +94,7 @@ const Contact = () => {
                                 </div>
                                 <div className="col-12">
                                     <div className="form-floating ">
-                                        <textarea onChange={handlerMessage} id="inputMessage" className="form-control textarea-contact" name="message" placeholder="Message">
+                                        <textarea onMouseLeave={handlerMessage} id="inputMessage" className="form-control textarea-contact" name="message" placeholder="Message">
                                         </textarea>
                                         <label htmlFor="message">Message</label>
                                         

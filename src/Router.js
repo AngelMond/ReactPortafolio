@@ -12,12 +12,12 @@ class RouterComponent extends Component {
         return (
             <Router>
                 <Routes>
-                    <Route path='/ReactPortfolio' element={ <Navigate to="/"/>} />
-                    <Route path='/' element={<HomePage />} />
-                    <Route path='/about' element={<AboutMe />} />
-                    <Route path='/portfolio' element={<Portfolio />} />
-                    <Route path='/contact' element={<Contact />} />
-                    <Route path='/resume' element={<Resume />} />
+                    <Route path='/ReactPortfolio' element={<Navigate to="/" />} />
+                    <Route path='/ReactPortfolio/' element={<HomePage />} />
+                    <Route path='/ReactPortfolio/about' element={<AboutMe />} />
+                    <Route path='/ReactPortfolio/portfolio' element={<Portfolio />} />
+                    <Route path='/ReactPortfolio/contact' element={<Contact />} />
+                    <Route path='/ReactPortfolio/resume' element={<Resume />} />
                 </Routes>
             </Router>
         )
