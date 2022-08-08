@@ -38,6 +38,6 @@ In src folder you have all the web components in different sub folders such as, 
 * Routes
 `Web routes are inside Router.js`
 
-# Deployed Web &#8681
+# Deployed Web &#8681;
 
 https://angel-mondragon.herokuapp.com/
