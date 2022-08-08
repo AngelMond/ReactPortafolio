@@ -306,4 +306,16 @@ nav{
   }
 }
 
+/*Media queries to change font-size in navbar*/
+@media screen and (max-width:474px) {
+  .navLinks{
+    font-size: 13px !important;
+  }
+}
+@media screen and (max-width:421px) {
+  .navLinks{
+    font-size: 11px !important;
+  }
+}
+
 
