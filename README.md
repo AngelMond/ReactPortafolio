@@ -9,6 +9,7 @@ Also you're able to download my resume by clicking the pdf image.
 
 
 The following image is a lighthouse audit:
+
 !["Lighthouse Audit"](/src//images/readme-images/lighthouse.jpg)
 
 # Technologies
