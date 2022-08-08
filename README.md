@@ -13,7 +13,7 @@ The following image is a lighthouse audit:
 
 # Technologies
 
-The web was developed with react-bootstrap, also used CSS for some animations and react-router-dom for the navigation.
+The web was developed with react-bootstrap, also used CSS for some animations personalized styles which are in file styles.css and used react-router-dom for the navigation.
 
 <div style="display: flex;">
     <img src="https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=fff">
