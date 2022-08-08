@@ -33,7 +33,7 @@ The web was developed with react-bootstrap, also used CSS for some animations an
 * Install libraries
 `npm i` 
 
-In src folder you have all the web components in diferrent sub folders as, header, footer, about-me, contact...
+In src folder you have all the web components in different sub folders such as, header, footer, about-me, contact...
 
 * Routes
 `Web routes are inside Router.js`
