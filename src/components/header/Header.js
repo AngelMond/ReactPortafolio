@@ -11,7 +11,7 @@ class Header extends Component {
 
                 <div className='nav row justify-content-between'>
                     <div className='logo col-12 col-md-12 col-lg-6 d-flex flex-wrap ps-4 align-items-center justify-content-center'>
-                        <h1 className='fs-1 col-auto m-2 text-white '><a className='heading-h1' href='/'>Angel Mondragon</a></h1>
+                        <h1 className='fs-1 col-auto m-2 text-white '><a className='heading-h1' href='/'>Ángel Mondragón</a></h1>
 
                         <div className='col-auto d-flex align-items-center'>
                             <div className='logo-icon  m-2 text-white'>
