@@ -27,15 +27,18 @@ The web was developed with react-bootstrap, also used CSS for some animations pe
 # Install
 
 * Clone the repository 
+
 `git clone git@github.com:AngelMond/ReactPortfolio.git`
 
 
 * Install libraries
+
 `npm i` 
 
 In src folder you have all the web components in different sub folders such as, header, footer, about-me, contact...
 
 * Routes
+
 `Web routes are inside Router.js`
 
 # Deployed Web &#8681;
