@@ -16,6 +16,7 @@ import mongodb from '../../images/tech-images/back-end/mongodb.png';
 import nodejs from '../../images/tech-images/back-end/nodejs.png';
 import npm from '../../images/tech-images/back-end/npm.png';
 import sql from '../../images/tech-images/back-end/sql.png';
+import graphql from '../../images/tech-images/back-end/graphql.png'
 
 //Devops images
 import git from '../../images/tech-images/devops/git.png';
@@ -51,6 +52,7 @@ class Resume extends Component {
                                 <img src={nodejs} alt="Nodejs" title="Nodejs" />
                                 <img src={npm} alt="NPM" title="NPM" />
                                 <img src={sql} alt="SQL" title="SQL" />
+                                <img src={graphql} alt="Graphql" title="GraphQL" />
                             </div>
                     </div>
                     <div className="col-md-10 mb-5">

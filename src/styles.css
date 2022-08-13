@@ -287,6 +287,9 @@ nav{
 #messageSended{
   display: none;
 }
+#errorSendForm{
+  display: none;
+}
 
 /*Resume styles for download resume*/
 .resumeImage:hover ~ #titleResume{
