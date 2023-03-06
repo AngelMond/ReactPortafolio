@@ -8,10 +8,11 @@ const Contact = () => {
     const [errorEmail, setErrorEmail] = useState(null);
     const [errorName, setErrorName] = useState(null);
     const [errorMessage, setErrorMessage] = useState(null);
+    const [messageSendedSuccessfully, setMessageSendedSuccessfully] = useState();
 
     //Handler for Email input
     const isValidEmail = (email) => {
-        return  /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+        return /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
     }
     const handleValidEmail = event => {
         if (!isValidEmail(event.target.value)) {
@@ -57,13 +58,16 @@ const Contact = () => {
         e.preventDefault();
         emailjs.sendForm('service_9mqxg39', 'template_oy8guul', formRef.current, '6uokKZOsjTF7uLKam')
             .then((result) => {
+                console.log(result)
                 console.log(result.text);
+                setErrorMessage(false);
                 //Clean inputs
-                document.querySelector("#inputName").value=" ";
-                document.querySelector("#inputEmail").value= " ";
-                document.querySelector("#inputMessage").value= " ";
+                document.querySelector("#inputName").value = " ";
+                document.querySelector("#inputEmail").value = " ";
+                document.querySelector("#inputMessage").value = " ";
                 //Display message sended
-                document.querySelector("#messageSended").style.display = "block";
+                //document.querySelector("#messageSended").style.display = "block";
+                setMessageSendedSuccessfully(true);
             }, (error) => {
                 console.log(error.text);
             });
@@ -82,14 +86,14 @@ const Contact = () => {
                                     <div className="form-floating ">
                                         <input onMouseLeave={handlerName} id="inputName" className="form-control" type="text" name="name" placeholder="Name" />
                                         <label className="text-start" htmlFor="name">Name</label>
-                                        {errorName && <h5 id="requireName" className=" text-danger fs-6 mt-2 text-center">{errorName}</h5>}
+                                        {errorName && <h5 id="requireName" className=" text-danger fs-6 mt-2 text-start">{errorName}</h5>}
                                     </div>
                                 </div>
                                 <div className="col-12 col-md-6 mb-3">
                                     <div className="form-floating ">
                                         <input onChange={handleValidEmail} id="inputEmail" className="form-control" type="text" name="email" placeholder="email" />
                                         <label className="text-start" htmlFor="email">email</label>
-                                        {errorEmail && <h5 id="invalidEmail" className=" text-danger fs-6 mt-2 text-center">{errorEmail}</h5>}
+                                        {errorEmail && <h5 id="invalidEmail" className=" text-danger fs-6 mt-2 text-start">{errorEmail}</h5>}
                                     </div>
                                 </div>
                                 <div className="col-12">
@@ -97,9 +101,11 @@ const Contact = () => {
                                         <textarea onMouseLeave={handlerMessage} id="inputMessage" className="form-control textarea-contact" name="message" placeholder="Message">
                                         </textarea>
                                         <label className="text-start" htmlFor="message">Message</label>
-                                        
-                                        {errorMessage && <h5 id="requireMessage" className=" text-danger fs-6 mt-2 text-center">{errorMessage}</h5>}
-                                        <h5 id="messageSended" className=" text-success fs-6 mt-2 text-center">Message sended</h5>                                    
+
+                                        {errorMessage && <h5 id="requireMessage" className=" text-danger fs-6 mt-2 text-start">{errorMessage}</h5>}
+                                        {messageSendedSuccessfully &&
+                                            <h5 id="messageSended" className=" text-success fs-6 mt-2 text-center">Message sended</h5>
+                                        }
                                     </div>
                                     <div className="d-flex justify-content-center mt-3">
                                         <input id="reload" className="sendButton text-start" type="submit" value="Send" />
