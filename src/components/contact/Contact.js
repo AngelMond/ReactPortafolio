@@ -10,10 +10,9 @@ const Contact = () => {
     const [errorMessage, setErrorMessage] = useState(null);
     const [messageSendedSuccessfully, setMessageSendedSuccessfully] = useState();
 
+    
+    
     //Handler for Email input
-    const isValidEmail = (email) => {
-        return /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
-    }
     const handleValidEmail = event => {
         if (!isValidEmail(event.target.value)) {
             //If input not receive a valid email will display an error message
@@ -24,11 +23,12 @@ const Contact = () => {
         setMessage(event.target.value);
     };
 
+    const isValidEmail = (email) => {
+        return /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+    }
+
 
     //Handler for Name input
-    const requireName = (name) => {
-        return /^[a-z, .'-']+$/i.test(name)
-    }
     const handlerName = (event) => {
         if (!requireName(event.target.value)) {
             //If input not receive any value will display an error message
@@ -39,10 +39,13 @@ const Contact = () => {
         setMessage(event.target.value)
     }
 
-    //Handler for Message input
-    const requireMessage = (message) => {
-        return /^[a-z, .'-', 0-9, *+/!, \n]+$/i.test(message)
+    const requireName = (name) => {
+        return /^[a-z, .'-']+$/i.test(name)
     }
+
+
+    
+    //Handler for Message input
     const handlerMessage = (event) => {
         if (!requireMessage(event.target.value)) {
             //If input not receive any value will display an error message
@@ -52,6 +55,12 @@ const Contact = () => {
         }
         setMessage(event.target.value)
     }
+
+    const requireMessage = (message) => {
+        return /^[a-z, .'-', 0-9, *+/!, \n]+$/i.test(message)
+    }
+
+
 
 
     const handleSubmit = (e) => {
@@ -107,7 +116,7 @@ const Contact = () => {
                                             <h5 id="messageSended" className=" text-success fs-6 mt-2 text-center">Message sended</h5>
                                         }
                                     </div>
-                                    <div className="d-flex justify-content-center mt-3">
+                                    <div className="d-flex justify-content-end mt-3">
                                         <input id="reload" className="sendButton text-start" type="submit" value="Send" />
                                     </div>
                                 </div>
