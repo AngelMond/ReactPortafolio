@@ -8,22 +8,25 @@ class AboutMe extends Component {
                     <h3 className='paragraph text-center section-headings'>Full Stack Web Developer</h3>
                     <div id="aboutMe-text-container" className='p-2'>
                         <p className='paragraph fs-4 px-3 mb-4 text-sm-center text-md-start'>
-                            I'm from Mexico City and i'm about to finish the bootcamp provided by Tec
-                            de Monterrey as a Full Stack Web Developer. I've developed several project which it have allows me I get experience by
-                            my self and i've worked with different teams in different projects.
+                            I'm from Mexico City and i'm almost have a year of experience as a fullstack developer, mostly in the front-end using React and bootstrap.
+                            Experience using Nodejs, and creating user interfaces.
+                        </p>
+                        <p className='paragraph fs-4 px-3 mb-4 text-sm-center text-md-start fw-bold'>
+                            I'm certified as a Google Associate Cloud Engineer.
+                        </p>
+                        <p className='paragraph fs-4 px-3 mb-4 text-sm-center text-md-start fw-bold'>
+                            Experience creating VMs, clusters in kubernetes, use of containers and registry to deploy in Cloud Run, using of images to deploy applications in App Engine.
                         </p>
 
                         <p className='paragraph fs-4 px-3 mb-4 text-sm-center text-md-start'>
-                            I've always had a passion for technology, i just can sitdown for hours and hours to programm and 
-                            i have never felt so much passion for something in my life i'am just happy to have discovered my passion.
+                            I've always had a passion for technology, i just can sitdown for hours and hours to programm. I have never felt so much passion for something in my life and i'am just happy to have discovered my passion.
                             I remember a saying:  <cite>"Choose a job you're passionate about and you won't have to work a day in your life". </cite>
-                            I can say that i really feel that!
+                            I can say that i'm living that!
                         </p>
 
                         <p className='fs-4 px-3 mb-4 text-sm-center text-md-start'>
                             I consider myself a disciplined person, and that helps me a lot to get the necessary knowledge to work as a web developer. 
                             I really like learning about data structures and algorithms, I think that's a fundamental part of being a good software developer.
-                            Also I'm curiuos about cyber security but that something I would like to learn in the future.
                         </p>
 
                         <p className='paragraph fs-4 px-3 mb-4 text-sm-center text-md-start'>
