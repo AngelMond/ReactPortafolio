@@ -61,7 +61,7 @@ class Resume extends Component {
                         <h3 className="text-center border-bottom border-muted p-2 section-headings">DEVOPS/OTHER APPLICATIONS</h3>
                         <div className='d-flex flex-wrap justify-content-center p-3'>
                             <a href="https://google.accredible.com/88844f39-e85b-4985-83d3-a99c89bbb6a8" target="_blank">
-                                <img src={googleEngineer} alt="Google Associate Cloud Engineer" title="Clic to view credentials as Associate Cloud Engineer" className="resumeImages" />
+                                <img src={googleEngineer} alt="Google Associate Cloud Engineer" title="Click to view credentials as Associate Cloud Engineer" className="resumeImages" />
                             </a>
                             <img src={git} alt="Git" title="Git" />
                             <img src={github} alt="Github" title="Github" />
