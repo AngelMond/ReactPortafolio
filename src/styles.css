@@ -1,4 +1,4 @@
-:root{
+:root {
   --body-background: #F2F1F2;
   --background-nav-link-1: #1895DE;
   --background-nav-link-2: #2A95F5;
@@ -23,11 +23,11 @@ body {
   -moz-osx-font-smoothing: antialiased;
 }
 
-#root{
+#root {
   background-color: var(--body-background);
 }
 
-.section-headings{
+.section-headings {
   color: var(--h3-section-headings);
 }
 
@@ -38,30 +38,31 @@ body {
   background: #202d35;
 }
 
-.heading-h1{
+.heading-h1 {
   text-decoration: none;
-  color:white ;
+  color: white;
   cursor: pointer;
 }
-.heading-h1:hover{
-  color:white ;
+
+.heading-h1:hover {
+  color: white;
 }
 
-nav{
+nav {
   min-height: 100px;
   overflow: hidden;
 }
 
 
-.dynamic-logo{
-  color:#fff;
+.dynamic-logo {
+  color: #fff;
 }
 
-.dynamic-list-container{
+.dynamic-list-container {
   overflow: hidden;
 }
 
-.slide-text ul{
+.slide-text ul {
   margin: 0px !important;
   padding: 0px !important;
   width: 180px;
@@ -71,7 +72,7 @@ nav{
   animation: slide 15s infinite;
 }
 
-.slide-text li{
+.slide-text li {
   text-align: center;
   height: 70px;
   line-height: 70px;
@@ -80,72 +81,100 @@ nav{
 
 /*Animation for dynamic logo text*/
 @keyframes slide {
-    0%, 14.28%{
-      transform: translateY(0%);
-    }14.28%,28.56%{
-      transform: translateY(-100%);
-    }28.56%, 42.84%{
-      transform: translateY(-200%);
-    }42.84%, 57.12%{
-      transform: translateY(-300%);
-    }57.12%, 71.4%{
-      transform: translateY(-400%);
-    }71.4%,85.68%{
-      transform: translateY(-500%);
-    }85.68%,100%{
-      transform: translateY(-600%);
-    }100%{
-      transform: translateY(-700%);
-    }
+
+  0%,
+  14.28% {
+    transform: translateY(0%);
+  }
+
+  14.28%,
+  28.56% {
+    transform: translateY(-100%);
+  }
+
+  28.56%,
+  42.84% {
+    transform: translateY(-200%);
+  }
+
+  42.84%,
+  57.12% {
+    transform: translateY(-300%);
+  }
+
+  57.12%,
+  71.4% {
+    transform: translateY(-400%);
+  }
+
+  71.4%,
+  85.68% {
+    transform: translateY(-500%);
+  }
+
+  85.68%,
+  100% {
+    transform: translateY(-600%);
+  }
+
+  100% {
+    transform: translateY(-700%);
+  }
 }
 
 
-.navLinks{
+.navLinks {
   text-decoration: none;
 }
 
 /*Background navlinks*/
-.bgLink-1{
-  background-color:var(--background-nav-link-1);
+.bgLink-1 {
+  background-color: var(--background-nav-link-1);
 }
-.bgLink-2{
-  background-color:var(--background-nav-link-2) ;
+
+.bgLink-2 {
+  background-color: var(--background-nav-link-2);
 }
-.bgLink-3{
-  background-color:var(--background-nav-link-3) ;
+
+.bgLink-3 {
+  background-color: var(--background-nav-link-3);
 }
-.bgLink-4{
-  background-color:var(--background-nav-link-4) ;
+
+.bgLink-4 {
+  background-color: var(--background-nav-link-4);
 }
 
 /*Hover navbar links*/
 
 .bgLink-1:hover span,
-.bgLink-1:hover .icon{
+.bgLink-1:hover .icon {
   color: var(--font-color-hover-links);
 }
+
 .bgLink-2:hover span,
-.bgLink-2:hover .icon{
+.bgLink-2:hover .icon {
   color: var(--font-color-hover-links);
 }
+
 .bgLink-3:hover span,
-.bgLink-3:hover .icon{
+.bgLink-3:hover .icon {
   color: var(--font-color-hover-links);
 }
+
 .bgLink-4:hover span,
-.bgLink-4:hover .icon{
+.bgLink-4:hover .icon {
   color: var(--font-color-hover-links);
 }
 
 
-.section-border{
+.section-border {
   border-top: 3px solid var(--sections-border-blue);
   background-color: var(--background-sections);
   border-bottom: 1px solid var(--sections-border-grayLight);
 }
 
 /*Styles for home section*/
-.homePage{
+.homePage {
   margin-bottom: 270px;
   height: 400px;
 }
@@ -154,27 +183,32 @@ nav{
 .social-media {
   border-top: 1px solid var(--sections-border-grayLight);
 }
-.footerIcons{
+
+.footerIcons {
   color: black;
   padding: 10px;
 }
-.footerIcons:hover{
+
+.footerIcons:hover {
   color: var(--background-nav-link-1);
   cursor: pointer;
 }
-.footer-link{
-  margin:0px !important;
+
+.footer-link {
+  margin: 0px !important;
 }
-.footer-link-Angel{
+
+.footer-link-Angel {
   text-decoration: none;
   color: var(--background-nav-link-1);
 }
-.footer-link-Angel:hover{
+
+.footer-link-Angel:hover {
   cursor: pointer;
 }
 
 /*Styles for projects description*/
-.projectDescription{
+.projectDescription {
   display: none;
   overflow: hidden;
   width: 300px;
@@ -185,71 +219,79 @@ nav{
   padding: 20px 5px;
 }
 
-.project-title{
+.project-title {
   color: white;
   font-weight: bold;
 }
 
-.description{
+.description {
   color: white;
 }
 
-.project-technologies{
+.project-technologies {
   color: white;
 }
 
-.project-links:hover{
-  box-shadow:  0px 0px 1px 1px rgb(143, 151, 155) ;
+.project-links:hover {
+  box-shadow: 0px 0px 1px 1px rgb(143, 151, 155);
   background-color: #2d74a3 !important;
   color: white !important;
   transition: 350ms;
 }
 
-.projectImage{
+.projectImage {
   width: 300px;
   height: 220px;
 }
 
 /*Show project description when hover*/
-.image-container:hover .projectDescription{
+.image-container:hover .projectDescription {
   display: block;
   cursor: pointer;
 }
 
 /*Animations for project description*/
 .image-container:hover .project-title,
-.image-container:hover .description{
+.image-container:hover .description {
   animation: showTitle 300ms linear;
   animation: showDescription 450ms linear;
 }
-.image-container:hover .project-technologies{
+
+.image-container:hover .project-technologies {
   animation: showTechnologies 400ms linear;
 }
+
 /*Animation title description*/
-@keyframes showTitle{
-  from{
-      transform: translateY(-200%);
+@keyframes showTitle {
+  from {
+    transform: translateY(-200%);
   }
-  to{
-      transform: translateY(0%);
+
+  to {
+    transform: translateY(0%);
   }
 }
+
 /*Animation project description*/
-@keyframes showDescription{
-  from{
-      transform: translateY(-300%);
-      color: black;
+@keyframes showDescription {
+  from {
+    transform: translateY(-300%);
+    color: black;
   }
-  to{
-      transform: translateY(0%);
-      color: white;
+
+  to {
+    transform: translateY(0%);
+    color: white;
   }
 }
+
 /*Animation technologies description*/
-@keyframes showTechnologies{
-  from{
-    transform:  translateX(-300%);
-  }to{
+@keyframes showTechnologies {
+  from {
+    transform: translateX(-300%);
+  }
+
+  to {
     transform: translateX(0%);
   }
 }
@@ -258,17 +300,17 @@ nav{
 /*Contact Styles*/
 
 
-.contact-section{
+.contact-section {
   margin-bottom: 270px;
 }
 
-.textarea-contact{
+.textarea-contact {
   min-height: 150px !important;
   max-height: 250px;
 }
 
-.sendButton{
-  background-color:#3EA4E4 ;
+.sendButton {
+  background-color: #3EA4E4;
   border: 1px solid grey;
   border-radius: 5px;
   padding: 7px 30px;
@@ -278,47 +320,52 @@ nav{
   text-decoration: none;
 }
 
-.sendButton:hover{
+.sendButton:hover {
   background-color: #1BA0EF;
   color: white;
 }
 
 /*Display the message when send the contact form in Contact.js component*/
-#messageSended{
+#messageSended {
   display: none;
 }
-#errorSendForm{
+
+#errorSendForm {
   display: none;
 }
 
 /*Resume styles for download resume*/
-.resumeImage:hover ~ #titleResume{
+.resumeImage:hover~#titleResume {
   color: red !important;
+}
+
+.resumeImages {
+  width: 60px !important;
+  height: 67px !important;
 }
 
 
 /*Styles page-not-found*/
-.page-not-found{
+.page-not-found {
   min-height: 600px;
 }
 
 /*Media query to center text in AboutMe section in mobile devices*/
 @media screen and (max-width:575px) {
-  .paragraph{
+  .paragraph {
     text-align: center;
   }
 }
 
 /*Media queries to change font-size in navbar*/
 @media screen and (max-width:474px) {
-  .navLinks{
+  .navLinks {
     font-size: 13px !important;
   }
 }
+
 @media screen and (max-width:421px) {
-  .navLinks{
+  .navLinks {
     font-size: 11px !important;
   }
 }
-
-

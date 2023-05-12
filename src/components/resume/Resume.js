@@ -23,6 +23,7 @@ import git from '../../images/tech-images/devops/git.png';
 import github from '../../images/tech-images/devops/github.png';
 import heroku from '../../images/tech-images/devops/heroku.png';
 import vscode from '../../images/tech-images/devops/vscode.png';
+import googleEngineer  from '../../images/tech-images/devops/cloudEngineer.png';
 
 //Resume image
 import pdfImage from '../../images/pdf-icon.AVIF'
@@ -62,6 +63,7 @@ class Resume extends Component {
                                 <img src={github} alt="Github" title="Github" />
                                 <img src={heroku} alt="Heroku" title="Heroku" />
                                 <img src={vscode} alt="VSCode" title="VSCode" />
+                                <img src={googleEngineer} alt="Google Associate Cloud Engineer" title="Google Associate Cloud Engineer" className="resumeImages"  />
                             </div>
                     </div>
                     <div className="col-md-10 mb-5">
