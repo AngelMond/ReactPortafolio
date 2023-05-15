@@ -108,21 +108,21 @@ const Contact = () => {
                                     <>
                                         <div className="col-12 col-md-6 mb-3">
                                             <div className="form-floating ">
-                                                <input onMouseLeave={handlerName} id="inputName" className="form-control" type="text" name="name" placeholder="Name" />
+                                                <input onMouseLeave={handlerName} id="inputName" className="form-control" type="text" name="name" placeholder="Name" required/>
                                                 <label className="text-start" htmlFor="name">Name</label>
                                                 {errorName && <h5 id="requireName" className=" text-danger fs-6 mt-2 text-start">{errorName}</h5>}
                                             </div>
                                         </div>
                                         <div className="col-12 col-md-6 mb-3">
                                             <div className="form-floating ">
-                                                <input onChange={handleValidEmail} id="inputEmail" className="form-control" type="text" name="email" placeholder="email" />
+                                                <input onChange={handleValidEmail} id="inputEmail" className="form-control" type="text" name="email" placeholder="email" required/>
                                                 <label className="text-start" htmlFor="email">email</label>
                                                 {errorEmail && <h5 id="invalidEmail" className=" text-danger fs-6 mt-2 text-start">{errorEmail}</h5>}
                                             </div>
                                         </div>
                                         <div className="col-12">
                                             <div className="form-floating ">
-                                                <textarea onMouseLeave={handlerMessage} id="inputMessage" className="form-control textarea-contact" name="message" placeholder="Message">
+                                                <textarea onMouseLeave={handlerMessage} id="inputMessage" className="form-control textarea-contact" name="message" placeholder="Message" required>
                                                 </textarea>
                                                 <label className="text-start" htmlFor="message">Message</label>
                                                 {errorMessage && <h5 id="requireMessage" className=" text-danger fs-6 mt-2 text-start">{errorMessage}</h5>}
