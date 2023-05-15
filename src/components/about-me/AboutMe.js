@@ -7,12 +7,12 @@ class AboutMe extends Component {
     render() {
         return (
             <section className='container '>
-                <article className='section-border mt-5 p-4 shadow ff text-start'>
-                    <h3 className='paragraph text-center section-headings mb-4'>Full Stack Web Developer</h3>
-                    <div id="aboutMe-text-container" className='p-2'>
+                <article className='section-border mt-5 p-4 shadow  text-start'>
+                    <h3 className='text-center section-headings mb-4'>Full Stack Web Developer</h3>
+                    <div id="aboutMe-text-container" className='p-2 ff'>
                         <p className='paragraph fs-4 px-3 mb-4 text-sm-start text-md-start'>
-                            I'm from Mexico City and almost a year of experience as a fullstack developer. front-end using React and bootstrap and integreating APIs created in Java for all the communication to the server.
-                            Experience using Express and Nodejs in general.
+                            I'm from Mexico City experience as a fullstack developer, in the front-end using React and bootstrap and integreating APIs created in Java for all the server communication,
+                            and in back-end using Express.
                         </p>
                         <p className='paragraph fs-4 px-3 mb-4 text-sm-start text-md-start fw-bold'>
                             Experience building +100 user interfaces in the currect project.

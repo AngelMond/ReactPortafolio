@@ -35,7 +35,7 @@ class Resume extends Component {
             <section className="container">
                 <article id="aboutMe-text-container" className='row section-border mt-5 p-4 shadow justify-content-center'>
                     <div className="col-md-10 mb-5">
-                        <h3 className="text-center border-bottom border-muted p-2 section-headings">FRONT-END PROFICIENCIES</h3>
+                        <h3 className="text-center border-bottom border-muted p-2 section-headings">Front-end proficiencies</h3>
                         <div className='d-flex flex-wrap justify-content-center p-3'>
                             <img className="techImagesSize" src={api} alt="API" title="API" />
                             <img src={bootstrap} alt="Bootstrap" title="Bootstrap" />
@@ -48,7 +48,7 @@ class Resume extends Component {
                         </div>
                     </div>
                     <div className="col-md-10 mb-5">
-                        <h3 className="text-center border-bottom border-muted p-2 section-headings">BACK-END PROFICIENCIES</h3>
+                        <h3 className="text-center border-bottom border-muted p-2 section-headings">Back-end proficiencies</h3>
                         <div className='d-flex flex-wrap justify-content-center p-3'>
                             <img src={mongodb} alt="MongoDB" title="MongoDB" />
                             <img src={nodejs} alt="Nodejs" title="Nodejs" />
@@ -58,7 +58,7 @@ class Resume extends Component {
                         </div>
                     </div>
                     <div className="col-md-10 mb-5">
-                        <h3 className="text-center border-bottom border-muted p-2 section-headings">DEVOPS/OTHER APPLICATIONS</h3>
+                        <h3 className="text-center border-bottom border-muted p-2 section-headings">DevOps/Other Applications</h3>
                         <div className='d-flex flex-wrap justify-content-center p-3'>
                             <a href="https://google.accredible.com/88844f39-e85b-4985-83d3-a99c89bbb6a8" target="_blank">
                                 <img src={googleEngineer} alt="Google Associate Cloud Engineer" title="Click to view credentials as Associate Cloud Engineer" className="resumeImages" />
@@ -70,7 +70,7 @@ class Resume extends Component {
                         </div>
                     </div>
                     <div className="col-md-10 mb-5">
-                        <h3 className="text-center border-bottom border-muted p-2 section-headings">DOWNLOAD RESUME</h3>
+                        <h3 className="text-center border-bottom border-muted p-2 section-headings">Download resume</h3>
                         <div className='d-flex flex-wrap justify-content-center p-3'>
                             <a className="resumeImage" href={resume} target="_blank" rel="noopener noreferrer"><img src={pdfImage} width="50" height="50" alt="resume" title="pdf-resume" /></a>
                             <p className="col-12 text-center text-muted mt-2" id="titleResume">Click to Download</p>
