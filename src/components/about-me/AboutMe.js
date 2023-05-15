@@ -57,7 +57,7 @@ class AboutMe extends Component {
                                         </li>
                                         <li className='text-muted ff'>Creation and validation of forms for securities transactions</li>
                                         <li className='text-muted ff'>TDD &#40;Test Driven Develpment&#41;</li>
-                                        <li className='text-muted ff'>Initialize react with CRA or Vite</li>
+                                        <li className='text-muted ff'>Initialize react projects with CRA or Vite</li>
                                     </ul>
                                 </div>
                             </div>
