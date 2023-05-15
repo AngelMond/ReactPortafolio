@@ -23,6 +23,11 @@ body {
   -moz-osx-font-smoothing: antialiased;
 }
 
+.ff{
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+
 #root {
   background-color: var(--body-background);
 }
@@ -339,6 +344,14 @@ nav {
   color: red !important;
 }
 
+.aboutMeImages {
+  width: 100px !important;
+  height: 100px !important;
+}
+
+
+
+
 .resumeImages {
   width: 60px !important;
   height: 67px !important;
@@ -353,7 +366,7 @@ nav {
 /*Media query to center text in AboutMe section in mobile devices*/
 @media screen and (max-width:575px) {
   .paragraph {
-    text-align: center;
+    text-align: start;
   }
 }
 
