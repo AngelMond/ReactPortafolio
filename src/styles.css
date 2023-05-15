@@ -12,6 +12,10 @@
   --h3-section-headings: #003F64;
 }
 
+#root{
+  min-height: 100vh !important;
+}
+
 body {
   text-align: center;
   margin: 0px;
@@ -350,11 +354,13 @@ nav {
 }
 
 
-
-
 .resumeImages {
   width: 60px !important;
   height: 67px !important;
+}
+
+.height-240{
+  height: 240px !important;
 }
 
 

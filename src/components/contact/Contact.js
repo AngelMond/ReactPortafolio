@@ -108,14 +108,14 @@ const Contact = () => {
                                     <>
                                         <div className="col-12 col-md-6 mb-3">
                                             <div className="form-floating ">
-                                                <input onMouseLeave={handlerName} id="inputName" className="form-control" type="text" name="name" placeholder="Name" required/>
+                                                <input onMouseLeave={handlerName} id="inputName" className="form-control" type="text" name="name" placeholder="Name" required />
                                                 <label className="text-start" htmlFor="name">Name</label>
                                                 {errorName && <h5 id="requireName" className=" text-danger fs-6 mt-2 text-start">{errorName}</h5>}
                                             </div>
                                         </div>
                                         <div className="col-12 col-md-6 mb-3">
                                             <div className="form-floating ">
-                                                <input onChange={handleValidEmail} id="inputEmail" className="form-control" type="text" name="email" placeholder="email" required/>
+                                                <input onChange={handleValidEmail} id="inputEmail" className="form-control" type="text" name="email" placeholder="email" required />
                                                 <label className="text-start" htmlFor="email">email</label>
                                                 {errorEmail && <h5 id="invalidEmail" className=" text-danger fs-6 mt-2 text-start">{errorEmail}</h5>}
                                             </div>
@@ -138,12 +138,11 @@ const Contact = () => {
                                     </>
                                 }
                                 {isLoading &&
-                                    <div className="col-12">
+                                    <div className="col-12 height-240 mt-5">
                                         <div className="row justify-content-center">
-                                            <div class="spinner-border col-12" role="status">
+                                            <div class="spinner-border col-12 align-middle" role="status">
                                             </div>
-                                            <span class="text-center">Sending message...</span>
-
+                                            <span class="text-center mt-2 ff align-middle">Sending message...</span>
                                         </div>
                                     </div>
 
