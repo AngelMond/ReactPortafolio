@@ -1,11 +1,7 @@
 # ReactPortafolio
 
 
-I deployed the app on heroku due to the incompatibility of gh-pages with browser-router. I thought of creating a component that had a switch function for the route issue, but I preferred to use react-router-dom to have better web performance and this seemed more professional to me.
-
-The contact form is completly functional and when hover over portfolio images, these will display a short description and technologies used in the project. 
-
-Also you're able to download my resume by clicking the pdf image.
+App deployed with Google Cloud Run and and Cloud Build through a Dockerfile
 
 
 The following image is a lighthouse audit:
@@ -14,7 +10,7 @@ The following image is a lighthouse audit:
 
 # Technologies
 
-The web was developed with react-bootstrap, also used CSS for some animations personalized styles which are in file styles.css and used react-router-dom for the navigation.
+The web was developed with react-bootstrap, also used CSS for some animations personalized styles which are in file styles.css
 
 <div style="display: flex;">
     <img src="https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=fff">
@@ -43,5 +39,4 @@ In src folder you have all the web components in different sub folders such as, 
 `Web routes are inside Router.js`
 
 # Deployed Web &#8681;
-
-https://angel-mondragon.herokuapp.com/
+https://angelmondragonweb-eo7gahxakq-uw.a.run.app
