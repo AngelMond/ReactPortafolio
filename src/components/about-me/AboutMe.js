@@ -55,6 +55,13 @@ class AboutMe extends Component {
                                                 <li>Conditional rendering</li>
                                             </ul>
                                         </li>
+                                        <li className='text-muted ff'>
+                                            APIs
+                                            <ul>
+                                                <li>Send and receive responses&#40;Objects, files, timestamps, etc..&#41;</li>
+                                                <li>Render the necessary information according to the requirement</li>
+                                            </ul>
+                                        </li>
                                         <li className='text-muted ff'>Creation and validation of forms for securities transactions</li>
                                         <li className='text-muted ff'>TDD &#40;Test Driven Develpment&#41;</li>
                                         <li className='text-muted ff'>Initialize react projects with CRA or Vite</li>
