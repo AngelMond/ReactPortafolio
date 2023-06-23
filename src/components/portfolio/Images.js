@@ -12,6 +12,7 @@ import employeeTracker from '../../images/employeeTracker.AVIF';
 import socialNetwork from '../../images/socialNetwork.AVIF';
 import ecommerceBackend from '../../images/ecommerceBackend.AVIF';
 import noteTaker from '../../images/noteTaker.AVIF';
+import reactShoppingCart from '../../images/react-shopping-cart.png'
 
 
 class Images extends Component {
@@ -95,6 +96,16 @@ class Images extends Component {
                     cardImage={noteTaker}
                     githubLink="https://github.com/AngelMond/Note-Taker"
                     webLink="https://blooming-anchorage-79721.herokuapp.com/"
+
+                />
+
+                <PortfolioCard
+                    cardTitle="React shoping cart"
+                    cardDescription="A shoping cart. Add items and bubble alert shows with the number of items in the cart"
+                    cardTechnologies="Nodejs/React"
+                    cardImage={reactShoppingCart}
+                    githubLink="https://github.com/AngelMond/ReactPortfolio"
+                    webLink="https://reactshoppingcart-eo7gahxakq-uc.a.run.app"
 
                 />
             </div>
