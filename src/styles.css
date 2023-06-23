@@ -369,10 +369,17 @@ nav {
   min-height: 600px;
 }
 
+.fs-responsive{
+  font-size: 24px !important;
+}
+
 /*Media query to center text in AboutMe section in mobile devices*/
 @media screen and (max-width:575px) {
   .paragraph {
     text-align: start;
+  }
+  .fs-responsive{
+    font-size: 15px !important;
   }
 }
 
@@ -381,10 +388,18 @@ nav {
   .navLinks {
     font-size: 13px !important;
   }
+
+  .fs-responsive{
+    font-size: 13px !important;
+  }
 }
 
 @media screen and (max-width:421px) {
   .navLinks {
-    font-size: 11px !important;
+    font-size: 12px !important;
+  }
+  
+  .fs-responsive{
+    font-size: 12px !important;
   }
 }
