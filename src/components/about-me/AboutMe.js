@@ -14,12 +14,13 @@ class AboutMe extends Component {
                             <div className='row align-items-center'>
                                 <div className='col-auto fs-responsive'>
                                     <span className=''>Certified as a Google Associate Cloud Engineer</span>
-                                </div>
-                                <div className='col-12 col-sm-4 col-md-2 '>
                                     <a href="https://google.accredible.com/88844f39-e85b-4985-83d3-a99c89bbb6a8" target="_blank">
                                         <img src={googleEngineer} alt="Google Associate Cloud Engineer" title="Click to view credentials as Associate Cloud Engineer" className="aboutMeImages" />
                                     </a>
                                 </div>
+                                {/* <div className='col-12 col-sm-4 col-md-2 '>
+                                    
+                                </div> */}
                             </div>
                         </p>
                         <p className='paragraph  px-3 mb-2 text-sm-start text-md-start fs-responsive'>

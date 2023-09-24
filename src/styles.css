@@ -380,6 +380,27 @@ nav {
 }
 
 
+@media (max-width: 767px) {
+  .aboutMeImages {
+    width: 60px !important;
+    height: 60px !important;
+  }
+}
+
+@media (max-width: 650px) {
+  .aboutMeImages {
+    width: 30px !important;
+    height: 30px !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .aboutMeImages {
+    width: 20px !important;
+    height: 20px !important;
+  }
+}
+
 .resumeImages {
   width: 60px !important;
   height: 67px !important;
