@@ -10,43 +10,31 @@ class AboutMe extends Component {
                 <article className='section-border mt-5 p-4 shadow  text-start'>
                     <h3 className='text-center section-headings mb-4'>Full Stack Web Developer</h3>
                     <div id="aboutMe-text-container" className='p-2 ff'>
-                        <p className='paragraph  px-3 mb-4 text-sm-start text-md-start fs-responsive'>
-                            I'm from Mexico City experience as a fullstack developer, in the front-end using React and bootstrap and integreating APIs created in Java for all the server communication,
-                            and in back-end using Express.
-                        </p>
-                        <p className='paragraph fs-4 px-3 mb-4 text-sm-start text-md-start fw-bold fs-responsive'>
-                            Experience building +100 user interfaces in the currect project.
-                        </p>
-                        <p className='paragraph fs-4 px-3 text-sm-start text-md-start fw-bold mb-5 mt-5 fs-responsive'>
+                        <p className='paragraph px-3 text-sm-start text-md-start fw-bold my-2 fs-responsive'>
                             <div className='row align-items-center'>
+                                <div className='col-auto fs-responsive'>
+                                    <span className=''>Certified as a Google Associate Cloud Engineer</span>
+                                </div>
                                 <div className='col-12 col-sm-4 col-md-2 '>
                                     <a href="https://google.accredible.com/88844f39-e85b-4985-83d3-a99c89bbb6a8" target="_blank">
                                         <img src={googleEngineer} alt="Google Associate Cloud Engineer" title="Click to view credentials as Associate Cloud Engineer" className="aboutMeImages" />
                                     </a>
                                 </div>
-                                <div className='col-12 col-sm-8 col-md-10 fs-responsive'>
-                                    <span className=''>Certified as a Google Associate Cloud Engineer</span>
-                                </div>
-
                             </div>
                         </p>
+                        <p className='paragraph  px-3 mb-2 text-sm-start text-md-start fs-responsive'>
+                            I'm from Mexico City, i'm passionate about software, always love keep on learning and improving my skills.
+                        </p>
+                        <p className='paragraph px-3 mb-4 text-sm-start text-md-start fs-responsive'>
+                            Developed +100 user interfaces in real projects using React, also have experience using Vuejs.
+                        </p>
                         <p className='paragraph  px-3 mb-4 text-sm-start text-md-start'>
-
                             <div className='row mt-5 fs-responsive'>
-                                <div className='col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6'>
-                                    <span className='fw-bold'> Skills as Google Cloud Engineer:</span>
-                                    <ul className='mt-4 mb-5 text-start'>
-                                        <li className='text-muted ff'>Creation of VMs and instance groups</li>
-                                        <li className='text-muted ff'>Clusters in kubernetes</li>
-                                        <li className='text-muted ff'>Docker &#40;Containers & Registry&#41;</li>
-                                        <li className='text-muted ff'>Deploy applications using Cloud BUild, Cloud Run and App Engine</li>
-                                        <li className='text-muted ff'>CI/CD - Splitting traffic across different versions in App Engine</li>
-                                    </ul>
-                                </div>
 
-                                <div className='col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6'>
-                                    <span className='fw-bold'> Skills as Developer:</span>
-                                    <ul className='mt-4 mb-5 text-start'>
+                                {/* Skills as front-end developer */}
+                                <div className='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12'>
+                                    <span className='fw-bold fs-16'> Skills as a front-end developer:</span>
+                                    <ul className='mt-2 mb-5 text-start fs-skills'>
                                         <li className='text-muted ff'>JavaScript</li>
                                         <li className='text-muted ff'>
                                             React
@@ -58,16 +46,80 @@ class AboutMe extends Component {
                                         <li className='text-muted ff'>
                                             APIs
                                             <ul>
-                                                <li>Send and receive responses&#40;Objects, files, timestamps, etc..&#41;</li>
+                                                <li>Send and receive API responses&#40;Objects, files, timestamps, etc..&#41;</li>
                                                 <li>Render the necessary information according to the requirement</li>
                                             </ul>
                                         </li>
-                                        <li className='text-muted ff'>Creation and validation of forms for securities transactions</li>
+                                        <li className='text-muted ff'>Creation and validation of forms</li>
                                         <li className='text-muted ff'>TDD &#40;Test Driven Develpment&#41;</li>
-                                        <li className='text-muted ff'>Initialize react projects with CRA or Vite</li>
+                                        <li className='text-muted ff'>React using CRA or Vite</li>
+                                    </ul>
+                                </div>
+
+                                {/* Skills as back-end developer */}
+                                <div className='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12'>
+                                    <span className='fw-bold fs-16'> Skills as a back-end developer:</span>
+                                    <ul className='mt-2 mb-5 text-start fs-skills'>
+                                        <li className='text-muted ff'>
+                                            Java
+                                            <ul>
+                                                <li>Design patterns like MVC</li>
+                                                <li>OOP</li>
+                                            </ul>
+                                        </li>
+                                        <li className='text-muted ff'>
+                                            Frameworks
+                                            <ul>
+                                                <li>Spring</li>
+                                            </ul>
+                                        </li>
+                                        <li className='text-muted ff'>
+                                            APIs
+                                            <ul>
+                                                <li>Creation and manipulation of APIRest endpoints</li>
+                                                <li>knowledge about libraries like &#40;Apache poi&#41; to create xlsx in API responses</li>
+                                            </ul>
+                                        </li>
+                                        <li className='text-muted ff'>Notions about Stored Procedures</li>
+                                        <li className='text-muted ff fw-bolder'>
+                                            Implementation of search engines like Solr with java
+                                            <ul>
+                                                <li>Experience on implementation for a search engine to look over than 5 billion records, and the creation of user interfaces with React to consume that info</li>
+                                                <li>Creation of schemas</li>
+                                                <li>Use of general query function</li>
+                                                <li>Use of faceting, faceting with pivots, facet-ranges</li>
+                                            </ul>
+                                        </li>
+                                        <li className='text-muted ff'>
+                                            Express with Nodejs
+                                            <ul>
+                                                <li>JWT</li>
+                                            </ul>
+                                        </li>
+                                        <li className='text-muted ff'>
+                                            Databases
+                                            <ul>
+                                                <li>MySQL</li>
+                                                <li>MongoDB</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                {/* Skills as cloud Engineer */}
+                                <div className='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12'>
+                                    <span className='fw-bold fs-16'> Skills as Google Cloud Engineer:</span>
+                                    <ul className='mt-2 mb-5 text-start fs-skills'>
+                                        <li className='text-muted ff'>Creation of VMs and instance groups</li>
+                                        <li className='text-muted ff'>Clusters in kubernetes</li>
+                                        <li className='text-muted ff'>Docker &#40;Containers & Registry&#41;</li>
+                                        <li className='text-muted ff'>Deploy applications using Cloud BUild, Cloud Run and App Engine</li>
+                                        <li className='text-muted ff'>CI/CD - Splitting traffic across different versions in App Engine</li>
                                     </ul>
                                 </div>
                             </div>
+
+
                         </p>
 
                         <p className='paragraph  px-3 mb-4 text-sm-start text-md-start fs-responsive'>

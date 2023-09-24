@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 class Header extends Component {
     render() {
 
-        let array = ["", "WebDeveloper", "React", "Bootstrap", "CSS", "NodeJS", "API's"];
+        let array = ["", "Java", "React", "Bootstrap", "OOP", "Nodejs", "APIs"];
 
         return (
             <header id='header' className='container g-0'>

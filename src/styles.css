@@ -41,6 +41,32 @@ body {
 }
 
 
+/* Font sizes */
+
+.fs-10{
+  font-size: 10px !important;
+}
+.fs-11{
+  font-size: 11px !important;
+}
+.fs-12{
+  font-size: 12px !important;
+}
+.fs-14{
+  font-size: 14px !important;
+}
+.fs-15{
+  font-size: 15px !important;
+}
+.fs-16{
+  font-size: 16px !important;
+}
+.fs-18{
+  font-size: 18px !important;
+}
+.fs-20{
+  font-size: 20px !important;
+}
 /*Header Styles*/
 #header {
   overflow: hidden;
@@ -349,8 +375,8 @@ nav {
 }
 
 .aboutMeImages {
-  width: 100px !important;
-  height: 100px !important;
+  width: 80px !important;
+  height: 80px !important;
 }
 
 
@@ -369,8 +395,12 @@ nav {
   min-height: 600px;
 }
 
+.fs-skills{
+  font-size: 16px !important;
+}
+
 .fs-responsive{
-  font-size: 24px !important;
+  font-size: 18px !important;
 }
 
 /*Media query to center text in AboutMe section in mobile devices*/
@@ -379,6 +409,10 @@ nav {
     text-align: start;
   }
   .fs-responsive{
+    font-size: 15px !important;
+  }
+
+  .fs-skills{
     font-size: 15px !important;
   }
 }
@@ -392,6 +426,10 @@ nav {
   .fs-responsive{
     font-size: 13px !important;
   }
+
+  .fs-skills{
+    font-size: 13px !important;
+  }
 }
 
 @media screen and (max-width:421px) {
@@ -400,6 +438,10 @@ nav {
   }
   
   .fs-responsive{
+    font-size: 12px !important;
+  }
+
+  .fs-skills{
     font-size: 12px !important;
   }
 }

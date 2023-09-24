@@ -17,9 +17,12 @@ import mongodb from '../../images/tech-images/back-end/mongodb.png';
 import nodejs from '../../images/tech-images/back-end/nodejs.png';
 import npm from '../../images/tech-images/back-end/npm.png';
 import sql from '../../images/tech-images/back-end/sql.png';
-import graphql from '../../images/tech-images/back-end/graphql.png'
+import graphql from '../../images/tech-images/back-end/graphql.png';
+import java from '../../images/tech-images/back-end/java.webp';
+import spring from '../../images/tech-images/back-end/spring.png';
 
 //Devops images
+import linux from '../../images/tech-images/devops/linux.jpeg';
 import git from '../../images/tech-images/devops/git.png';
 import github from '../../images/tech-images/devops/github.png';
 import heroku from '../../images/tech-images/devops/heroku.png';
@@ -38,23 +41,24 @@ class Resume extends Component {
                         <h3 className="text-center border-bottom border-muted p-2 section-headings">Front-end proficiencies</h3>
                         <div className='d-flex flex-wrap justify-content-center p-3'>
                             <img className="techImagesSize" src={api} alt="API" title="API" />
+                            <img src={react} alt="React" title="React" />
+                            <img src={javascript} alt="JavaScript" title="JavaScript" />
                             <img src={bootstrap} alt="Bootstrap" title="Bootstrap" />
                             <img src={css} alt="CSS" title="CSS" />
                             <img src={html} alt="HTML" title="HTML" />
-                            <img src={javascript} alt="JavaScript" title="JavaScript" />
-                            <img src={jquery} alt="JQuery" title="JQuery" />
-                            <img src={json} alt="Json" title="Json" />
-                            <img src={react} alt="React" title="React" />
                         </div>
                     </div>
                     <div className="col-md-10 mb-5">
                         <h3 className="text-center border-bottom border-muted p-2 section-headings">Back-end proficiencies</h3>
                         <div className='d-flex flex-wrap justify-content-center p-3'>
-                            <img src={mongodb} alt="MongoDB" title="MongoDB" />
+                            <img src={java} alt="Java" title="Java" width={80} height={80} />
                             <img src={nodejs} alt="Nodejs" title="Nodejs" />
                             <img src={npm} alt="NPM" title="NPM" />
                             <img src={sql} alt="SQL" title="SQL" />
-                            <img src={graphql} alt="Graphql" title="GraphQL" />
+                            <img src={mongodb} alt="MongoDB" title="MongoDB" />
+                            <img src={spring} alt="Spring" title="Spring" width={80} height={80} />
+
+                            {/* <img src={graphql} alt="Graphql" title="GraphQL" /> */}
                         </div>
                     </div>
                     <div className="col-md-10 mb-5">
@@ -63,10 +67,11 @@ class Resume extends Component {
                             <a href="https://google.accredible.com/88844f39-e85b-4985-83d3-a99c89bbb6a8" target="_blank">
                                 <img src={googleEngineer} alt="Google Associate Cloud Engineer" title="Click to view credentials as Associate Cloud Engineer" className="resumeImages" />
                             </a>
+                            <img src={linux} alt="Linux" title="Linux" width={80} height={80}/>
                             <img src={git} alt="Git" title="Git" />
                             <img src={github} alt="Github" title="Github" />
                             <img src={heroku} alt="Heroku" title="Heroku" />
-                            <img src={vscode} alt="VSCode" title="VSCode" />
+                            {/* <img src={vscode} alt="VSCode" title="VSCode" /> */}
                         </div>
                     </div>
                     <div className="col-md-10 mb-5">
