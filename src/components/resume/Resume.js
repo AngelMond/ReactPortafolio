@@ -67,7 +67,7 @@ class Resume extends Component {
                             <a href="https://google.accredible.com/88844f39-e85b-4985-83d3-a99c89bbb6a8" target="_blank">
                                 <img src={googleEngineer} alt="Google Associate Cloud Engineer" title="Click to view credentials as Associate Cloud Engineer" className="resumeImages" />
                             </a>
-                            <img src={linux} alt="Linux" title="Linux" width={80} height={80}/>
+                            <img src={linux} alt="Linux" title="Linux" width={60} height={60}/>
                             <img src={git} alt="Git" title="Git" />
                             <img src={github} alt="Github" title="Github" />
                             <img src={heroku} alt="Heroku" title="Heroku" />
